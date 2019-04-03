@@ -6,4 +6,14 @@ authors:
 
 crystal: 0.27.2
 
+dependencies:
+  inflector:
+    github: phoffer/inflector.cr
+    version: "~> 0.1.8"
+
+development_dependencies:
+  icr:
+    github: crystal-community/icr
+    branch: master
+
 license: MIT
