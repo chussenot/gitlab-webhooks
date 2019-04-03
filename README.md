@@ -1,6 +1,7 @@
-# gitlab-webhooks.cr
+[![Build
+Status](https://travis-ci.org/chussenot/gitlab-webhooks.cr.svg?branch=master)](https://travis-ci.org/chussenot/gitlab-webhooks.cr)
 
-TODO: Write a description here
+# gitlab-webhooks.cr
 
 ## Installation
 
