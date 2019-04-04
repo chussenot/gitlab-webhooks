@@ -76,7 +76,7 @@ module Gitlab
     property template : Bool
     property description : String?
     @[JSON::Field(key: "type")]
-    property label_type : String
+    property label_type : String?
     property group_id : Int32?
   end
 
@@ -155,7 +155,7 @@ module Gitlab
     property started_at : String?
     property finished_at : String?
     @[JSON::Field(key: "when")]
-    property build_when : String
+    property build_when : String?
     property manual : Bool
     property user : User
     property runner : Runner?
