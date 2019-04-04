@@ -1,4 +1,7 @@
 language: crystal
 crystal:
-    - latest
-    - nightly
+  - latest
+before_install:
+  - crystal tool format --check
+before_script:
+  - tar -xvf fixtures.tar.gz
