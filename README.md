@@ -24,9 +24,9 @@ require "gitlab-webhooks.cr"
 
 ## References
 
-* [How to add a project hook?](https://docs.gitlab.com/ee/api/projects.html#add-project-hook)
-* [Rake task to add a project hook](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/lib/tasks/gitlab/web_hook.rake#L2)
-* [API endpoint](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/lib/api/project_hooks.rb)
+* [How to add a GitLab project hook documentation](https://docs.gitlab.com/ee/api/projects.html#add-project-hook)
+* [The Rake task to add a project hooks](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/lib/tasks/gitlab/web_hook.rake#L2)
+* [The Grape API endpoint implementation](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/lib/api/project_hooks.rb)
 
 ## Contributing
 
