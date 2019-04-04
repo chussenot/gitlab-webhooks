@@ -1,3 +1,4 @@
+[![Language](https://img.shields.io/badge/language-crystal-776791.svg)](https://github.com/crystal-lang/crystal)
 [![Build
 Status](https://travis-ci.org/chussenot/gitlab-webhooks.cr.svg?branch=master)](https://travis-ci.org/chussenot/gitlab-webhooks.cr)
 
@@ -21,11 +22,11 @@ Status](https://travis-ci.org/chussenot/gitlab-webhooks.cr.svg?branch=master)](h
 require "gitlab-webhooks.cr"
 ```
 
-TODO: Write usage instructions here
+## References
 
-## Development
-
-TODO: Write development instructions here
+* [How to add a project hook?](https://docs.gitlab.com/ee/api/projects.html#add-project-hook)
+* [Rake task to add a project hook](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/lib/tasks/gitlab/web_hook.rake#L2)
+* [API endpoint](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/lib/api/project_hooks.rb)
 
 ## Contributing
 
