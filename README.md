@@ -1,6 +1,7 @@
 [![Language](https://img.shields.io/badge/language-crystal-776791.svg)](https://github.com/crystal-lang/crystal)
 [![Build
 Status](https://travis-ci.org/chussenot/gitlab-webhooks.cr.svg?branch=master)](https://travis-ci.org/chussenot/gitlab-webhooks.cr)
+[![Release](https://img.shields.io/github/release/chussenot/gitlab-webhooks.svg)](https://github.com/chussenot/gitlab-webhooks/releases)
 
 # gitlab-webhooks.cr
 
