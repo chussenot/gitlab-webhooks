@@ -19,7 +19,9 @@ jobs:
           command: shards install
       - run:
           name: "Spec"
-          command: crystal spec
+          command: |
+            tar -xvf fixtures.tar.gz
+            crystal spec
       - run:
           name: "Build API documents"
           command: |
