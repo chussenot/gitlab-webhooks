@@ -38,12 +38,12 @@ require "gitlab-webhooks"
 The Crystal is new ... Crystal has downsides just like every other languages.
 To relay the catched Gitlab events on hundreds of Ruby, Python libraries made
 by thousands of open source contributors over the last decade or monitoring
-systems like Prometheus. You can contribute and add your exemple in the
-`exemples` folder.
+systems like Prometheus. You can contribute and add your example in the
+`examples` folder.
 
 ### HTTP requests
 
-This Crystal exemple show you how to implement where all endpoints can catch
+This Crystal example show you how to implement where all endpoints can catch
 some events, parse them and print the values of some attributes.
 
 ```
