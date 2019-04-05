@@ -13,7 +13,7 @@ Status](https://travis-ci.org/chussenot/gitlab-webhooks.svg?branch=master)](http
 dependencies:
   gitlab-webhooks:
     github: chussenot/gitlab-webhooks
-    version: 0.3.1
+    version: 0.3.2
 ```
 
 2. Run `shards install`
