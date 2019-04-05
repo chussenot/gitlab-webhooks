@@ -6,6 +6,12 @@ Status](https://travis-ci.org/chussenot/gitlab-webhooks.svg?branch=master)](http
 
 # gitlab-webhooks.cr
 
+GitLab can trigger events with well configured [webhooks](https://docs.gitlab.com/ee/user/project/integrations/webhooks.html).
+When that event occurs, the source app makes an HTTP request to the URI
+configured for the webhook, you can use the Crystal HTTP class to manage that.
+The action taken may be anything... Common uses are to trigger builds
+with continuous integration systems or to notify deployments.
+
 ## Installation
 
 1. Add the dependency to your `shard.yml`:
