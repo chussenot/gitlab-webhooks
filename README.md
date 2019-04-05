@@ -2,6 +2,7 @@
 [![Build
 Status](https://travis-ci.org/chussenot/gitlab-webhooks.svg?branch=master)](https://travis-ci.org/chussenot/gitlab-webhooks.cr)
 [![Release](https://img.shields.io/github/tag/chussenot/gitlab-webhooks.svg)](https://github.com/chussenot/gitlab-webhooks/releases)
+[![Licence](https://img.shields.io/github/license/chussenot/gitlab-webhooks.svg)](https://github.com/chussenot/gitlab-webhooks/blob/master/LICENSE)
 
 # gitlab-webhooks.cr
 
