@@ -12,6 +12,8 @@ configured for the webhook, you can use the Crystal HTTP class to manage that.
 The action taken may be anything... Common uses are to trigger builds
 with continuous integration systems or to notify deployments.
 
+Docs Generated in latest commit.
+
 ## Installation
 
 1. Add the dependency to your `shard.yml`:
