@@ -20,7 +20,7 @@ with continuous integration systems or to notify deployments.
 dependencies:
   gitlab-webhooks:
     github: chussenot/gitlab-webhooks
-    version: 0.3.2
+    version: 0.3.3
 ```
 
 2. Run `shards install`
