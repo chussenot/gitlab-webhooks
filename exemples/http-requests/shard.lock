@@ -1,0 +1,9 @@
+version: 1.0
+shards:
+  gitlab-webhooks:
+    github: chussenot/gitlab-webhooks
+    version: 0.3.2
+
+  inflector:
+    github: phoffer/inflector.cr
+    version: 0.1.8

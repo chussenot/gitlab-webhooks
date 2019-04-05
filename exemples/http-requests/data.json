@@ -1,0 +1,43 @@
+{
+  "object_kind": "build",
+  "ref": "master",
+  "tag": false,
+  "before_sha": "6aaf1bd283a36a24fc53e9e8fcdf3356e592039f",
+  "sha": "99a57e4dce699af354f6c70e87078e710646c267",
+  "build_id": 1,
+  "build_name": "job",
+  "build_stage": "test",
+  "build_status": "created",
+  "build_started_at": null,
+  "build_finished_at": null,
+  "build_duration": null,
+  "build_allow_failure": false,
+  "project_id": 1,
+  "project_name": "Administrator / ok",
+  "user": {
+    "id": 1,
+    "name": "Administrator",
+    "email": "admin@example.com"
+  },
+  "commit": {
+    "id": 1,
+    "sha": "99a57e4dce699af354f6c70e87078e710646c267",
+    "message": "Add .gitlab-ci.yml",
+    "author_name": "Administrator",
+    "author_email": "admin@example.com",
+    "author_url": "http://git.example.com/root",
+    "status": "created",
+    "duration": null,
+    "started_at": null,
+    "finished_at": null
+  },
+  "repository": {
+    "name": "ok",
+    "url": "git@git.example.com:root/ok.git",
+    "description": "",
+    "homepage": "http://git.example.com/root/ok",
+    "git_http_url": "http://git.example.com/root/ok.git",
+    "git_ssh_url": "git@git.example.com:root/ok.git",
+    "visibility_level": 0
+  }
+}

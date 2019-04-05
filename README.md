@@ -39,6 +39,38 @@ by thousands of open source contributors over the last decade or monitoring
 systems like Prometheus. You can contribute and add your exemple in the
 `exemples` folder.
 
+### HTTP requests
+
+This Crystal exemple show you how to implement where all endpoints can catch
+some events, parse them and print the values of some attributes.
+
+```
+require "json"
+require "http/server"
+require "gitlab-webhooks"
+
+server = HTTP::Server.new do |context|
+  if body = context.request.body
+    event : Gitlab::Event = Gitlab.event_from(JSON.parse(body).to_json.to_s)
+    puts event.commit.message
+    context.response.content_type = "text/plain"
+    context.response.print "Hello world!"
+  else
+    context.response.print "You didn't POST any data :("
+  end
+end
+
+server.bind_tcp 8080
+puts "Listening on http://0.0.0.0:8080"
+server.listen
+```
+
+Then you can curl the server with a sample file
+
+`
+curl -X POST --data @data.json http://localhost:8080/
+`
+
 ## References
 
 * [How to add a GitLab project hook documentation](https://docs.gitlab.com/ee/api/projects.html#add-project-hook)
