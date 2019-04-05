@@ -24,6 +24,13 @@ This is a early release. Please don't use this in production.
 * Add few fixtures
 * Fix the main spec name to run the tests properly
 
+## [v0.3.0](https://github.com/chussenot/gitlab-webhooks.cr/releases/tag/v0.3.0)
+- 04/04/2019
+
+### Added
+
+* Change the shard name to gitlqb-webhooks
+
 ---
 
 ## [Unreleased]

@@ -11,8 +11,9 @@ Status](https://travis-ci.org/chussenot/gitlab-webhooks.cr.svg?branch=master)](h
 
    ```yaml
    dependencies:
-     gitlab-webhooks.cr:
-       github: chussenot/gitlab-webhooks.cr
+     gitlab-webhooks:
+       github: chussenot/gitlab-webhooks
+       version: ~> 0.3.0
    ```
 
 2. Run `shards install`
@@ -20,7 +21,7 @@ Status](https://travis-ci.org/chussenot/gitlab-webhooks.cr.svg?branch=master)](h
 ## Usage
 
 ```crystal
-require "gitlab-webhooks.cr"
+require "gitlab-webhooks"
 ```
 
 ## References

@@ -1,10 +1,9 @@
-name: gitlab-webhooks.cr
+crystal: 0.27.2
 version: 0.2.0
-
+name: gitlab-webhooks
+license: MIT
 authors:
   - Clement <chussenot@gmail.com>
-
-crystal: 0.27.2
 
 dependencies:
   inflector:
@@ -17,5 +16,3 @@ development_dependencies:
     branch: master
   coverage:
     github: anykeyh/crystal-coverage
-
-license: MIT
