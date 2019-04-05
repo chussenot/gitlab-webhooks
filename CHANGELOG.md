@@ -24,8 +24,10 @@ This is a early release. Please don't use this in production.
 * Add few fixtures
 * Fix the main spec name to run the tests properly
 
-## [v0.3.0](https://github.com/chussenot/gitlab-webhooks.cr/releases/tag/v0.3.0)
-- 04/04/2019
+## [v0.3.2](https://github.com/chussenot/gitlab-webhooks.cr/releases/tag/v0.3.0)
+- 04/05/2019
+
+First stable version of the library, few exemples of use will come soon.
 
 ### Added
 
