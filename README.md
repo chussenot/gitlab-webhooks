@@ -35,11 +35,11 @@ You just have to require the lib.
 require "gitlab-webhooks"
 ```
 
-The Crystal is new ... Crystal has downsides just like every other languages.
+The Crystal language is new ... Crystal has downsides just like every other languages.
 To relay the catched Gitlab events on hundreds of Ruby, Python libraries made
 by thousands of open source contributors over the last decade or monitoring
-systems like Prometheus. You can contribute and add your example in the
-`examples` folder.
+systems like Prometheus, few examples can be find below. You can contribute
+and add your example in the `examples` folder.
 
 ### HTTP requests
 
